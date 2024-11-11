@@ -1,20 +1,103 @@
-
 body{
-    background-image:url('happy.png');
+
+    background:linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,3)), url('https://images.paramount.tech/uri/mgid:arc:imageassetref:ws.mtv.com:3c5aee49-8ca8-463b-bc4b-9354c10e7dd5?quality=0.7&gen=ntrn&format=webp&width=1200');
     background-size:cover;
-    
+    height: 100vh;
 }
 .navbar{
     height: 25px;
-    display: flex;
-    justify-content: space-between;
-    margin: 10px 10px
+    display: flex; 
+    justify-content: start;
+    margin: 15px 25px;
 }
 
-.sidebar{
-    height:60%;
-    margin-top: -5px;
-    margin-right: 15px;
+.tab-text{
+    color: rgb(146, 143, 143);
+    display: flex;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+}
+
+.home-tab{
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.home-tab:hover{
+    color: white;
+}
+
+.browse-tab{
+    margin-right: 25px;
+}
+
+.browse-tab:hover{
+    color: white;
+}
+
+.fan-tab{
+    margin-right: 25px;
+}
+
+.fan-tab:hover{
+    color: white;
+}
+
+.pluto-tab{
+    margin-right: 25px;
+}
+
+.pluto-tab:hover{
+    color: white;
+}
+
+.shop-tab{
+    margin-right: 25px;
+}
+
+.shop-tab:hover{
+    color: white;
+}
+
+.tv-tab{
+    margin-right: 25px;
+}
+
+.tv-tab:hover{
+    color: white;
+}
+
+.how-tab{
+    margin-right: 530px;
+}
+
+.how-tab:hover{
+    color: white;
+}
+
+.episode-text{
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    margin-top: 70px;
+    margin-left: 30px;
+}
+
+.episode-images {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.episode {
+    border: solid rgb(36, 36, 40);
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+.episode:hover {
+    border-color: yellow;
 }
 
 .tryBtn{
@@ -23,6 +106,11 @@ body{
     background-color: yellow;
     border-radius: 6px;
     font-size: 16px;
+    border: none;
+}
+
+.tryBtn:hover {
+   background-color: skyblue; 
 }
 
 .texts{
@@ -68,7 +156,12 @@ body{
     background: yellow;
     border-radius: 7px;
     font-size: 18px;
+    border: none;
+    margin: 5px;
+}
 
+.watch-now-btn:hover {
+    background-color: skyblue;
 }
 
 .how-to-watch-btn{
@@ -79,4 +172,10 @@ body{
     border-radius: 7px;
     color: white; 
     font-size: 18px;
+    border: none;
+}
+
+.how-to-watch-btn:hover{
+    background-color: white;
+    color: black;
 }
